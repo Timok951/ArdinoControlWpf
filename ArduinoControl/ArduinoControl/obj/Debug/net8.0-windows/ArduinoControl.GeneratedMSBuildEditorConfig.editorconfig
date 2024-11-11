@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ArduinoControl
-build_property.ProjectDir = D:\Учёба\МДК(Arduino)\ArduinoControl\ArduinoControl\
+build_property.ProjectDir = H:\П50-4-22\МДК(Arduino)\Arduino control\ArduinoControl\ArduinoControl\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

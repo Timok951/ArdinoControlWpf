@@ -239,11 +239,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Учёба\\МДК(Arduino)\\ArduinoControl\\ArduinoControl\\ArduinoControl.csproj",
+      "projectUniqueName": "H:\\П50-4-22\\МДК(Arduino)\\Arduino control\\ArduinoControl\\ArduinoControl\\ArduinoControl.csproj",
       "projectName": "ArduinoControl",
-      "projectPath": "D:\\Учёба\\МДК(Arduino)\\ArduinoControl\\ArduinoControl\\ArduinoControl.csproj",
+      "projectPath": "H:\\П50-4-22\\МДК(Arduino)\\Arduino control\\ArduinoControl\\ArduinoControl\\ArduinoControl.csproj",
       "packagesPath": "C:\\Users\\timof\\.nuget\\packages\\",
-      "outputPath": "D:\\Учёба\\МДК(Arduino)\\ArduinoControl\\ArduinoControl\\obj\\",
+      "outputPath": "H:\\П50-4-22\\МДК(Arduino)\\Arduino control\\ArduinoControl\\ArduinoControl\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -258,7 +258,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -306,7 +305,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

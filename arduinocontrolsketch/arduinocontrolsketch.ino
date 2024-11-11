@@ -88,49 +88,99 @@
 #define NOTE_D8  4699
 #define NOTE_DS8 4978
 
-#define FIRSTBTN_PIN 2
-#define SECONDBTN_PIN 3
+#define TEST_PIN 13
 
-#define REDLIGHT_PIN 4
-#define YELLOWLIGHT_PIN 5
+
+#define FIRSTBTN_PIN 2
+#define SECONDBTN_PIN 8
+
+#define REDLIGHT_PIN 5
+#define YELLOWLIGHT_PIN 7
 
 boolean led_flag = 0;
 int i = 0;
 
+unsigned long previousMillis = 0;  
+unsigned long interval = 1000;
 
 void setup() {
   Serial.begin(9600);
 
-  pinMode(FIRSTBTN_PIN, INPUT);
-  pinMode(SECONDBTN_PIN, INPUT);
+  pinMode(FIRSTBTN_PIN, INPUT_PULLUP);
+  pinMode(SECONDBTN_PIN, INPUT_PULLUP);
 
   pinMode(REDLIGHT_PIN, OUTPUT);
   pinMode(YELLOWLIGHT_PIN, OUTPUT);
 
 }
+int melody[] = {
+  NOTE_E4, NOTE_E4, NOTE_F4, NOTE_G4, NOTE_G4, NOTE_F4, NOTE_E4, NOTE_D4, NOTE_C4, NOTE_B3, NOTE_B3, NOTE_B3, NOTE_C4,
+  NOTE_D4, NOTE_E4, NOTE_E4, NOTE_E4, NOTE_E4, NOTE_E4, NOTE_D4, NOTE_D4, NOTE_D4, NOTE_E4, NOTE_E4, NOTE_E4,
+  NOTE_E4, NOTE_E4, NOTE_D4, NOTE_D4, NOTE_E4, NOTE_E4, NOTE_E4, NOTE_D4, NOTE_D4, NOTE_C4, NOTE_C4
+};
+
+
+
+
+void blinkLEDs() {
+  unsigned long currentMillis = millis();
+
+  if (currentMillis - previousMillis >= interval) {
+    previousMillis = currentMillis;
+
+    digitalWrite(REDLIGHT_PIN, !digitalRead(REDLIGHT_PIN));
+    digitalWrite(YELLOWLIGHT_PIN, !digitalRead(YELLOWLIGHT_PIN));
+  }
+}
 
 void loop() {
+    delay(500);
     i = i +1;
     String stringOne = "Info from Arduino";
     stringOne +=i;
-    Serial.prtintln(stringOne)
-    if (Serial.avalible()> 0){
-    char incomingchar;
+    Serial.println(stringOne);
+        if (digitalRead(FIRSTBTN_PIN) == LOW) {
+                  delay(10);
 
-    switch(incomingChar){
-      case '1':
-        digitalWrite(REDLIGHT_PIN, HIGH);
-        digitalWrite(YELLOWLIGHT_PIN, HIGH);
-        break;
-
-    }
-    case '2':
-        digitalWrite(REDLIGHT_PIN, LOW);
-        digitalWrite(YELLOWLIGHT_PIN, LOW);
-        break;
-
-
-
-    }
-
+    Serial.println("b");
+        delay(10);
 }
+if (digitalRead(SECONDBTN_PIN) == LOW) {
+                    delay(10);
+
+    Serial.println("c");
+    delay(10);
+}
+ if (Serial.available() > 0) {
+        char incomingChar = Serial.read();
+
+        switch (incomingChar) {
+            case '1': 
+                interval = 100; 
+                break;
+                
+            case '2': 
+                 interval = 500;
+                break;
+              case '3': 
+                interval = 1000;  
+                break;
+            case '0': 
+                for(int thisNote = 0; thisNote < 34; thisNote++){
+                  tone(3,melody[thisNote]);
+                  delay(500);
+                }
+                delay(2000);
+                break;
+                
+        }
+
+
+
+
+    }
+
+  blinkLEDs();  
+}    
+
+

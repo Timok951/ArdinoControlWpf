@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9NfnkqgZNm4=",
+  "dgSpecHash": "CV+NnKuRb+I=",
   "success": true,
-  "projectFilePath": "D:\\Учёба\\МДК(Arduino)\\ArduinoControl\\ArduinoControl\\ArduinoControl.csproj",
+  "projectFilePath": "H:\\П50-4-22\\МДК(Arduino)\\Arduino control\\ArduinoControl\\ArduinoControl\\ArduinoControl.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\timof\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\8.0.0\\runtime.linux-arm.runtime.native.system.io.ports.8.0.0.nupkg.sha512",
     "C:\\Users\\timof\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\8.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.8.0.0.nupkg.sha512",

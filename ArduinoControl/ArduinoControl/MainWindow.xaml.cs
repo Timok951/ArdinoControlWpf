@@ -49,26 +49,35 @@ namespace ArduinoControl
         {
             if (!currentPort.IsOpen) return;
             try//after sceen was closed timer can execute 
-            try//after sceen was closed timer can execute 
             {
                 //delete buffer 
                 currentPort.DiscardInBuffer();
                 //read last value 
                 string stFromPort = currentPort.ReadLine();
                 lblPortData.Dispatcher.BeginInvoke(new UpdateDelegate(updateTextBox), stFromPort);
+                if (stFromPort.Contains("b"))
+                {
+                    string btn = "buttn1 Press";
+                    bttnpress.Dispatcher.BeginInvoke(new UpdateDelegate(updateButton), btn);
+                }
+                else if (stFromPort.Contains("c"))
+                {
+                    string btn = "buttn2 Press";
+                    bttnpress.Dispatcher.BeginInvoke(new UpdateDelegate(updateButton), btn);
+                }
 
             }
             catch
-            {
-
-            }
-            }
+            { }
             }
 
         public MainWindow()
         {
             InitializeComponent();
             bool ArduinoPortFound = false;
+
+            List<string> frequency = new List<string> { "0.1" , "0.5" ,"1" };
+            FrequencyCmbx.ItemsSource = frequency;
 
             try
             {
@@ -107,12 +116,35 @@ namespace ArduinoControl
         {
             lblPortData.Content = txt;
         }
+        private void updateButton(string txt)
+        {
+            bttnpress.Content = txt;
+        }
 
         private void ButnOne_Click(object sender, RoutedEventArgs e)
         {
-            if (!currentPort.IsOpen) return;
-                currentPort.Write("1");
-            
+            switch (FrequencyCmbx.SelectedItem as string)
+            {
+                case "0.1":
+                    if (!currentPort.IsOpen) return;
+                    currentPort.Write("1");
+                    break;
+                case "0.5":
+                    if (!currentPort.IsOpen) return;
+                    currentPort.Write("2");
+                    break;
+
+                case "1":
+                    if (!currentPort.IsOpen) return;
+                    currentPort.Write("3");
+                    break;
+
+            }
+
+
+
+
+
         }
 
         private void ButnTwo_Click(object sender, RoutedEventArgs e)

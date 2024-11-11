@@ -1,22 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\\u0423\u0447\u0451\u0431\u0430\\\u041C\u0414\u041A(Arduino)\\ArduinoControl\\",
+  "WorkspaceRootPath": "H:\\\u041F50-4-22\\\u041C\u0414\u041A(Arduino)\\Arduino control\\ArduinoControl\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4076F6B-20E9-4FA0-99BA-177D93FD3CF5}|ArduinoControl\\ArduinoControl.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043C\u0434\u043A(arduino)\\arduinocontrol\\arduinocontrol\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E4076F6B-20E9-4FA0-99BA-177D93FD3CF5}|ArduinoControl\\ArduinoControl.csproj|solutionrelative:arduinocontrol\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E4076F6B-20E9-4FA0-99BA-177D93FD3CF5}|ArduinoControl\\ArduinoControl.csproj|h:\\\u043F50-4-22\\\u043C\u0434\u043A(arduino)\\arduino control\\arduinocontrol\\arduinocontrol\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4076F6B-20E9-4FA0-99BA-177D93FD3CF5}|ArduinoControl\\ArduinoControl.csproj|solutionrelative:arduinocontrol\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4076F6B-20E9-4FA0-99BA-177D93FD3CF5}|ArduinoControl\\ArduinoControl.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043C\u0434\u043A(arduino)\\arduinocontrol\\arduinocontrol\\arduinocontrol.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{E4076F6B-20E9-4FA0-99BA-177D93FD3CF5}|ArduinoControl\\ArduinoControl.csproj|h:\\\u043F50-4-22\\\u043C\u0434\u043A(arduino)\\arduino control\\arduinocontrol\\arduinocontrol\\arduinocontrol.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E4076F6B-20E9-4FA0-99BA-177D93FD3CF5}|ArduinoControl\\ArduinoControl.csproj|solutionrelative:arduinocontrol\\arduinocontrol.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4076F6B-20E9-4FA0-99BA-177D93FD3CF5}|ArduinoControl\\ArduinoControl.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043C\u0434\u043A(arduino)\\arduinocontrol\\arduinocontrol\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4076F6B-20E9-4FA0-99BA-177D93FD3CF5}|ArduinoControl\\ArduinoControl.csproj|solutionrelative:arduinocontrol\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4076F6B-20E9-4FA0-99BA-177D93FD3CF5}|ArduinoControl\\ArduinoControl.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\\u043C\u0434\u043A(arduino)\\arduinocontrol\\arduinocontrol\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4076F6B-20E9-4FA0-99BA-177D93FD3CF5}|ArduinoControl\\ArduinoControl.csproj|solutionrelative:arduinocontrol\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E4076F6B-20E9-4FA0-99BA-177D93FD3CF5}|ArduinoControl\\ArduinoControl.csproj|h:\\\u043F50-4-22\\\u043C\u0434\u043A(arduino)\\arduino control\\arduinocontrol\\arduinocontrol\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E4076F6B-20E9-4FA0-99BA-177D93FD3CF5}|ArduinoControl\\ArduinoControl.csproj|solutionrelative:arduinocontrol\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,42 +25,16 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "D:\\\u0423\u0447\u0451\u0431\u0430\\\u041C\u0414\u041A(Arduino)\\ArduinoControl\\ArduinoControl\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "ArduinoControl\\AssemblyInfo.cs",
-              "ToolTip": "D:\\\u0423\u0447\u0451\u0431\u0430\\\u041C\u0414\u041A(Arduino)\\ArduinoControl\\ArduinoControl\\AssemblyInfo.cs",
-              "RelativeToolTip": "ArduinoControl\\AssemblyInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T16:31:04.426Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ArduinoControl",
-              "DocumentMoniker": "D:\\\u0423\u0447\u0451\u0431\u0430\\\u041C\u0414\u041A(Arduino)\\ArduinoControl\\ArduinoControl\\ArduinoControl.csproj",
-              "RelativeDocumentMoniker": "ArduinoControl\\ArduinoControl.csproj",
-              "ToolTip": "D:\\\u0423\u0447\u0451\u0431\u0430\\\u041C\u0414\u041A(Arduino)\\ArduinoControl\\ArduinoControl\\ArduinoControl.csproj",
-              "RelativeToolTip": "ArduinoControl\\ArduinoControl.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-11T16:31:05.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\\u0423\u0447\u0451\u0431\u0430\\\u041C\u0414\u041A(Arduino)\\ArduinoControl\\ArduinoControl\\MainWindow.xaml",
+              "DocumentMoniker": "H:\\\u041F50-4-22\\\u041C\u0414\u041A(Arduino)\\Arduino control\\ArduinoControl\\ArduinoControl\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ArduinoControl\\MainWindow.xaml",
-              "ToolTip": "D:\\\u0423\u0447\u0451\u0431\u0430\\\u041C\u0414\u041A(Arduino)\\ArduinoControl\\ArduinoControl\\MainWindow.xaml",
+              "ToolTip": "H:\\\u041F50-4-22\\\u041C\u0414\u041A(Arduino)\\Arduino control\\ArduinoControl\\ArduinoControl\\MainWindow.xaml",
               "RelativeToolTip": "ArduinoControl\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-31T09:27:11.152Z",
@@ -72,13 +42,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "ArduinoControl.csproj",
+              "DocumentMoniker": "H:\\\u041F50-4-22\\\u041C\u0414\u041A(Arduino)\\Arduino control\\ArduinoControl\\ArduinoControl\\ArduinoControl.csproj",
+              "RelativeDocumentMoniker": "ArduinoControl\\ArduinoControl.csproj",
+              "ToolTip": "H:\\\u041F50-4-22\\\u041C\u0414\u041A(Arduino)\\Arduino control\\ArduinoControl\\ArduinoControl\\ArduinoControl.csproj",
+              "RelativeToolTip": "ArduinoControl\\ArduinoControl.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-11T16:31:05.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\\u0423\u0447\u0451\u0431\u0430\\\u041C\u0414\u041A(Arduino)\\ArduinoControl\\ArduinoControl\\MainWindow.xaml.cs",
+              "DocumentMoniker": "H:\\\u041F50-4-22\\\u041C\u0414\u041A(Arduino)\\Arduino control\\ArduinoControl\\ArduinoControl\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ArduinoControl\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\\u0423\u0447\u0451\u0431\u0430\\\u041C\u0414\u041A(Arduino)\\ArduinoControl\\ArduinoControl\\MainWindow.xaml.cs",
+              "ToolTip": "H:\\\u041F50-4-22\\\u041C\u0414\u041A(Arduino)\\Arduino control\\ArduinoControl\\ArduinoControl\\MainWindow.xaml.cs",
               "RelativeToolTip": "ArduinoControl\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHgAAAANAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAwGQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T09:27:09.318Z",
               "EditorCaption": ""
